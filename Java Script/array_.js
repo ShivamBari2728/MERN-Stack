@@ -69,3 +69,17 @@ function sum(...nums) {
 }
 
 sum(1, 2, 3, 4, 5);
+
+
+// Destructuring
+
+const user4 = {
+  uname: "Shivam",
+  age: 22,
+  city: "Mumbai"
+};
+
+const { uname, age } = user4; // name should be exaclty same 
+
+console.log(uname); // Shivam
+console.log(age);  // 22
