@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
 
-// Home Page
 app.get('/', (req, res) => {
   res.send(`
     <html>
@@ -18,7 +17,6 @@ app.get('/', (req, res) => {
   `);
 });
 
-// About Page
 app.get('/about', (req, res) => {
   res.send(`
     <html>
@@ -35,7 +33,6 @@ app.get('/about', (req, res) => {
   `);
 });
 
-// Contact Page
 app.get('/contact', (req, res) => {
   res.send(`
     <html>
