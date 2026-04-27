@@ -11,6 +11,10 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+//use error handeler below 
+
+//
+
 app.get('/', (req, res) => {
     res.json({ message: 'Product API is running' });
 });
